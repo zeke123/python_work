@@ -42,3 +42,7 @@ language = " python "
 print(language.lstrip()) # 删除左边空白
 print(language.rstrip()) # 删除右边空白
 print(language.strip()) # 删除左右两边的空白
+
+# 删除前缀
+baidu_url = "https://www.baidu.com"
+print(baidu_url.removeprefix('https://'))
