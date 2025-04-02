@@ -46,3 +46,28 @@ print(language.strip()) # 删除左右两边的空白
 # 删除前缀
 baidu_url = "https://www.baidu.com"
 print(baidu_url.removeprefix('https://'))
+
+
+# 整数 + - * / ,乘方运算**
+print(3+2)
+print(3-2)
+print(3*2)
+print(3/2)
+print(3**2)
+
+# 浮点数float
+print(0.1+0.1)
+print(2*0.1)
+
+# 整数和浮点数
+print(4/2)
+
+# 数中的下划线
+money = 18_000_000_000
+# 不会打印下划线
+print(money)
+
+
+
+
+
