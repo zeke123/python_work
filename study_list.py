@@ -41,3 +41,19 @@ print(languages)
 # 根据值删除元素
 languages.remove('ArkTS')
 print(languages)
+
+
+cars = ['bmw','toyota','audi','subaru']
+# 使用sort对列表进行永久排序,按照字母顺序排序
+cars.sort()
+print(cars)
+
+# 按照字母相反的顺序排序
+cars.sort(reverse=True)
+print(cars)
+
+# sorted:对列表进行临时排序
+cars = ['bmw','toyota','audi','subaru']
+print(f"原始顺序:{cars}")
+print(f"排列顺序:{sorted(cars)}")
+print(f"排列之后:{cars}")
