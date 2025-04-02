@@ -1,6 +1,6 @@
-print("hello python world")
+#print("hello python world")
 
-print("第二行代码")
+#print("第二行代码")
 
 # 变量命名规则：
 """
@@ -14,60 +14,65 @@ print("第二行代码")
 # 字符串：可以是单引号，也可以是双引号
 
 name="zhoujian"
-print(name.title()) #Zhoujian,将姓名设置为合适的格式
-print(name.upper()) #ZHOUJIAN
-print(name.lower()) #zhoujian
+#print(name.title()) #Zhoujian,将姓名设置为合适的格式
+#print(name.upper()) #ZHOUJIAN
+#print(name.lower()) #zhoujian
 
 # f字符串
 first_name = "zhou"
 last_name = "jian"
-full_name = f"{first_name}{last_name}"
-print(full_name)
-print(f"hhello,{full_name}")
+#full_name = f"{first_name}{last_name}"
+#print(full_name)
+#print(f"hhello,{full_name}")
 
 # 制表符和换行符
 # 字符串中添加制表符，\t
-print("\tPython")
-print("Python")
+#print("\tPython")
+#print("Python")
 
 # 换行符，\n
 
-print("language:\nJava\nPython\nArkTS")
+#print("language:\nJava\nPython\nArkTS")
 
 # 同时制表符和换行符 \n\t
 
-print("\n\tlanguage:\n\tJava\n\tPython\n\tArkTS")
+#print("\n\tlanguage:\n\tJava\n\tPython\n\tArkTS")
 
 language = " python "
-print(language.lstrip()) # 删除左边空白
-print(language.rstrip()) # 删除右边空白
-print(language.strip()) # 删除左右两边的空白
+#print(language.lstrip()) # 删除左边空白
+#print(language.rstrip()) # 删除右边空白
+#print(language.strip()) # 删除左右两边的空白
 
 # 删除前缀
 baidu_url = "https://www.baidu.com"
-print(baidu_url.removeprefix('https://'))
+#print(baidu_url.removeprefix('https://'))
 
 
 # 整数 + - * / ,乘方运算**
-print(3+2)
-print(3-2)
-print(3*2)
-print(3/2)
-print(3**2)
+#print(3+2)
+#print(3-2)
+#print(3*2)
+#print(3/2)
+#print(3**2)
 
 # 浮点数float
-print(0.1+0.1)
-print(2*0.1)
+#print(0.1+0.1)
+#print(2*0.1)
 
 # 整数和浮点数
-print(4/2)
+#print(4/2)
 
 # 数中的下划线
 money = 18_000_000_000
 # 不会打印下划线
-print(money)
+#print(money)
 
 
+# 常量 ，全部大写
+MAX_COUNT = 10089
+print(MAX_COUNT)
+
+import this
 
 
 
