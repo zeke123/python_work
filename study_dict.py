@@ -36,6 +36,13 @@ print(person_dict)
 del person_dict['age']
 print(person_dict)
 
+# 使用get方法来访问值
+my_dict = {'name': 'zhoujian', 'age': 37, 'city': 'nanjing'}
 
-
+# "na"不存在，会报错
+#print(my_dict['na'])
+# 使用get
+# 不存在，直接返回None，不会报错
+print(my_dict.get('na'))
+print(my_dict.get('na',"这个键不存在"))
 
