@@ -62,3 +62,6 @@ print(f"排列之后:{cars}")
 # 反向打印列表.反转列表的排列顺序
 cars.reverse()
 print(cars)
+
+# 确定列表的长度，len
+print(f"列表的长度为:{len(cars)}")
