@@ -51,5 +51,21 @@ for key,value in my_dict.items():
     print(f"key:{key}")
     print(f"value:{value}")
 
+print("-------1")
+
+# 遍历字典中所有的键
+for key in my_dict.keys():
+    print(key)
+print("-------2")
+# 遍历字典中所有的值
+for value in my_dict.values():
+    print(value)
+
+print("-------3")
+# 按照特定顺序遍历字典中的所有键
+for key in sorted(my_dict.keys()):
+    print(key)
+
+
 
 
