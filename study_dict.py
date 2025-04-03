@@ -5,5 +5,16 @@ Python中的字典:
 
 """
 
-
 my_dict = {'name': 'zhoujian', 'age': 37, 'city': 'nanjing'}
+
+# 访问字典中的值
+print(my_dict['name'])
+print(my_dict['age'])
+print(my_dict['city'])
+
+# 添加键值对
+my_dict['height'] = "174cm"
+my_dict['weight'] = "62kg"
+print(my_dict)
+
+
