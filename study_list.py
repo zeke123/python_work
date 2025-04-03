@@ -57,3 +57,8 @@ cars = ['bmw','toyota','audi','subaru']
 print(f"原始顺序:{cars}")
 print(f"排列顺序:{sorted(cars)}")
 print(f"排列之后:{cars}")
+
+
+# 反向打印列表.反转列表的排列顺序
+cars.reverse()
+print(cars)
