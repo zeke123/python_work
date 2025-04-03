@@ -12,3 +12,11 @@ print(widths[3])
 # 遍历元组的值
 for width in widths:
     print(width)
+
+print("--------")
+
+# 虽不能修改元组中的元素，但可以给元组变量重新赋值
+widths = (10,20)
+# 遍历元组的值
+for width in widths:
+    print(width)
