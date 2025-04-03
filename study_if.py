@@ -47,3 +47,4 @@ cars = ['bmw','toyota','audi','subaru']
 print('bmw' in cars)
 # 不在列表中
 print('byd' not in cars)
+
