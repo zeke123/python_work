@@ -77,6 +77,29 @@ persons = [person_a_dict,person_b_dict,person_c_dict]
 for person in persons:
     print(person)
 
+print("-------5")
+# 在字典中存储列表
+mine_dict = {'name': 'zhoujian', 'age': 38, 'city': 'nanjing',"languages":["Java","Python","ArkTS"]}
+
+# 遍历字典中的键
+for key in mine_dict.keys():
+    print(key)
+
+print("-------6")
+
+# 遍历字典中的值
+for value in mine_dict.values():
+    print(value)
+
+print("-------7")
+# 遍历字典
+for key,value in mine_dict.items():
+    print(key)
+    print(value)
+
+
+
+
 
 
 
