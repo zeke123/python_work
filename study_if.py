@@ -32,3 +32,18 @@ if age_student_A >=26 or age_student_B >=30:
     print(True)
 else:
     print(False)
+
+
+print("------3")
+# 检查特定值是否在列表中
+
+"""
+in:在列表中
+not in:不在列表中
+"""
+cars = ['bmw','toyota','audi','subaru']
+
+# 在列表中
+print('bmw' in cars)
+# 不在列表中
+print('byd' not in cars)
