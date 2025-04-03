@@ -26,3 +26,16 @@ person_dict['city'] = "shanghai"
 print(person_dict)
 
 
+# 修改字典中的值
+person_dict['age'] = 28
+person_dict['city'] = "nanjing"
+print(person_dict)
+
+
+# 删除键值对,使用del语句删除
+del person_dict['age']
+print(person_dict)
+
+
+
+
