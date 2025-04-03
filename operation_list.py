@@ -61,6 +61,16 @@ print(languages[1:])
 # 打印列表中的最后的2个元素：languages[-2:]
 print(languages[-2:])
 
+# 遍历切片
+# 遍历languages列表中的前三种语言
+for language in languages[0:3]:
+    print(language)
+
+print("----------")
+
+# 遍历最后两种语言
+for language in languages[-2:]:
+    print(language)
 
 
 
