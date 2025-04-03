@@ -6,13 +6,11 @@ for car in cars:
     else:
         print(car.title())
 
-
 car = 'bmw'
 print(car == 'bmw') # True
 print(car == 'audi') # False
 
 # 不等运算符 !=
-
 # 检查多个条件
 # and：每个条件都通过了，整个表达式为True，如果至少一个条件没通过，就为False
 # or：其中一个条件通过了，整个表达式为True，否则为False
@@ -59,7 +57,6 @@ if age>=18:
     print("成年人")
 else:
     print("未成年人")
-
 
 # if-elif-else
 
