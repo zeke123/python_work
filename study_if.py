@@ -48,3 +48,26 @@ print('bmw' in cars)
 # 不在列表中
 print('byd' not in cars)
 
+
+# if语句
+age = 17;
+if age>=18:
+    print("成年人")
+
+# if-else语句
+if age>=18:
+    print("成年人")
+else:
+    print("未成年人")
+
+
+# if-elif-else
+
+if age>=18 and age<=45:
+    print("青年人")
+elif age>=46 and age<=60:
+    print("中年人")
+elif age>60:
+    print("老年人")
+else:
+    print("未成年人")
