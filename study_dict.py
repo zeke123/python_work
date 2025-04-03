@@ -43,6 +43,13 @@ my_dict = {'name': 'zhoujian', 'age': 37, 'city': 'nanjing'}
 #print(my_dict['na'])
 # 使用get
 # 不存在，直接返回None，不会报错
-print(my_dict.get('na'))
-print(my_dict.get('na',"这个键不存在"))
+print(my_dict.get('na')) #None
+print(my_dict.get('na',"这个键不存在")) # 这个键不存在
+
+# 遍历字典
+for key,value in my_dict.items():
+    print(f"key:{key}")
+    print(f"value:{value}")
+
+
 
