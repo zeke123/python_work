@@ -41,5 +41,28 @@ print(numbers)
 numbers = [number**3 for number in range(1,11)]
 print(numbers)
 
+# 使用列表的一部分：切片slice
+languages = ['Java','python','ArkTS','Kotlin']
+
+# 输出一个列表，包含前三种语言
+
+# [0:3]返回索引分别为0、1、2的元素
+print(languages[0:3])
+
+# [1:3]返回索引分别为1、2的元素
+print(languages[1:3])
+
+# 如果没有指定第一个索引，Python将自动从列表开头开
+print(languages[:2])
+
+# 如果没有指定最后的索引，切片终止于列表末尾
+print(languages[1:])
+
+# 打印列表中的最后的2个元素：languages[-2:]
+print(languages[-2:])
+
+
+
+
 
 
