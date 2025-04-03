@@ -17,4 +17,12 @@ my_dict['height'] = "174cm"
 my_dict['weight'] = "62kg"
 print(my_dict)
 
+# 创建一个空字典
+person_dict = {}
+
+# 添加键值对
+person_dict['age'] = 18
+person_dict['city'] = "shanghai"
+print(person_dict)
+
 
