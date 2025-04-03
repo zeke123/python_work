@@ -66,6 +66,19 @@ print("-------3")
 for key in sorted(my_dict.keys()):
     print(key)
 
+print("-------4")
+
+# 字典列表
+person_a_dict = {'name': 'zhangsan', 'age': 37, 'city': 'nanjing'}
+person_b_dict = {'name': 'lisi', 'age': 32, 'city': 'shanghai'}
+person_c_dict = {'name': 'wangwu', 'age': 27, 'city': 'hangzhou'}
+
+persons = [person_a_dict,person_b_dict,person_c_dict]
+for person in persons:
+    print(person)
+
+
+
 
 
 
