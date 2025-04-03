@@ -92,13 +92,21 @@ for value in mine_dict.values():
     print(value)
 
 print("-------7")
+
 # 遍历字典
 for key,value in mine_dict.items():
     print(key)
     print(value)
 
+print("-------8")
 
-
+# 在字典中存储字典
+users_dict = {"xiaoming":{"weight":"80kg","height":"179cm","city":"beijing"},"xiaohong":{"weight":"50kg","height":"165cm","city":"shanghai"}}
+for name,person_info in users_dict.items():
+    print(name)
+    print(person_info)
+    city = person_info['city']
+    print(city)
 
 
 
