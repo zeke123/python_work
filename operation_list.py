@@ -72,6 +72,14 @@ print("----------")
 for language in languages[-2:]:
     print(language)
 
+# 复制列表
+
+mine_language = ['Java','python','ArkTS','Kotlin']
+
+# [:]创建一个起始于第一个元素、终止于最后一个元素的切片，即复制整个列表
+friend_language = mine_language[:]
+print(friend_language)
+
 
 
 
