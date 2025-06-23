@@ -65,7 +65,7 @@ usernames = ['jim','jack','bob']
 greet_users(usernames)
 
 
-# 在函数中修改列表
+# 在函数中
 
 
 
